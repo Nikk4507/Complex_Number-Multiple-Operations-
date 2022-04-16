@@ -25,6 +25,11 @@ class Complex{
         b = o1.b - o2.b;
         cout<<"The Subtraction of complex number is: "<<a<<" - "<<b<<"i"<<endl;
     }
+     void GetDataByMultiplication(Complex o1,Complex o2){
+        a = o1.a * o2.a;
+        b = o1.b * o2.b;
+        cout<<"The Subtraction of complex number is: "<<a<<" * "<<b<<"i"<<endl;
+    }
 };
 
 int main(){
@@ -39,4 +44,5 @@ int main(){
 
     c3.GetDataBySum(c1,c2);
     c3.GetDataBySub(c1,c2);
+    c3.GetDataByMultiplication(c1,c2);
 }
