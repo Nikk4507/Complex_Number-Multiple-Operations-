@@ -11,20 +11,21 @@ class Complex{
         cout<<"Enter the imaginary number: ";
         cin>>b;
     }
+    /* prints the complex number*/
     void PrintNum(){
         cout<<"\nThe number is: "<<a<<" + "<<b<<"i"<<endl;
-    }
+    }/*get the data and add the real num to real and imaginary num to imaginary*/
     void GetDataBySum(Complex o1,Complex o2){
         a = o1.a + o2.a;
         b = o1.b + o2.b;
         cout<<"The addition of complex number is: "<<a<<" + "<<b<<"i"<<endl;
-    }
+    }/*get the data and sub the real num to real and imaginary num to imaginary*/
 
     void GetDataBySub(Complex o1,Complex o2){
         a = o1.a - o2.a;
         b = o1.b - o2.b;
         cout<<"The Subtraction of complex number is: "<<a<<" - "<<b<<"i"<<endl;
-    }
+    }/*get the data and multiply the real num to real and imaginary num to imaginary*/
      void GetDataByMultiplication(Complex o1,Complex o2){
         a = o1.a * o2.a;
         b = o1.b * o2.b;
