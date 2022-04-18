@@ -2,8 +2,8 @@
 using namespace std;
 
 class Complex{
-    int a;
-    int b;
+    int a,a1;
+    int b,b1;
     public:
     void getData(){
         cout<<"Enter the real number: ";
@@ -28,8 +28,10 @@ class Complex{
     }/*get the data and multiply the real num to real and imaginary num to imaginary*/
      void GetDataByMultiplication(Complex o1,Complex o2){
         a = o1.a * o2.a;
+        a1= o1.a * o2.b;
         b = o1.b * o2.b;
-        cout<<"The Subtraction of complex number is: "<<a<<" * "<<b<<"i"<<endl;
+        b1 = o1.b * o2.a;
+        cout<<"The Multiplication of complex number we get: "<<a<<" + "<<(a1+b1)<<"i - "<<b<<endl;
     }
 };
 
