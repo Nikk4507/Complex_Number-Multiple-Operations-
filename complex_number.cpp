@@ -2,7 +2,7 @@
 using namespace std;
 
 class Complex{
-    int a,a1;
+    int a,a1,C;
     int b,b1;
     public:
     void getData(){
@@ -31,7 +31,8 @@ class Complex{
         a1= o1.a * o2.b;
         b = o1.b * o2.b;
         b1 = o1.b * o2.a;
-        cout<<"The Multiplication of complex number we get: "<<a<<" + "<<(a1+b1)<<"i - "<<b<<endl;
+        C = a + b
+        cout<<"The Multiplication of complex number we get: "<<C<<" + "<<(a1+b1)<<"i"<<endl;
     }
 };
 
