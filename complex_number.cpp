@@ -31,7 +31,7 @@ class Complex{
         a1= o1.a * o2.b;
         b = o1.b * o2.b;
         b1 = o1.b * o2.a;
-        C = a + b
+        C = a + b;
         cout<<"The Multiplication of complex number we get: "<<C<<" + "<<(a1+b1)<<"i"<<endl;
     }
 };
